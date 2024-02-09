@@ -8,8 +8,8 @@ order: 3
 [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 ). إذا أجريت عملية حسابية على متغير غير محدد فستكون النتيجة (
 [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
-) والتي تعني "ليس رقمًا". إذا قمت بعمليات على سلسلة مع متغير غير محدد، سوف تحصل
-على سلسلة من غير معرف.
+) والتي تعني "ليس رقمًا". إذا قمت بعمليات على سلسلة مع متغير غير محدد، ستحصل
+على سلسلة غير معرفة.
 
 ```js
 var a; // undefined
@@ -26,7 +26,7 @@ console.log(c); // "undefined String!"
 
 <mark>
 
-سنتعرف قريبًا على العمليات الحسابيه على الارقام والسلاسل قريبا
+سنتعرف قريبًا على العمليات الحسابية على الأرقام والسلاسل قريبًا.
 
 </mark>
 

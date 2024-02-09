@@ -16,7 +16,7 @@ const firstName = "Ada";
 const secondLetterOfFirstName = firstName[1];
 ```
 
-سيكون لـ `SecondLetterOfFirstName` قيمة السلسلة `d`.
+سيكون لـ `secondLetterOfFirstName` قيمة السلسلة `d`.
 
 ## استخدم الأقواس للعثور على الحرف الأخير في سلسلة
 
@@ -39,4 +39,4 @@ const thirdToLastLetter = firstName[firstName.length - 3];
  -->
 <div class="quiz">
 قم بطباعة الحرف الثالث من الأخير في السلسلة `Augusta`.
-<div>
+</div>
