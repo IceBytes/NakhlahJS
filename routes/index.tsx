@@ -28,24 +28,24 @@ export default function BlogIndexPage(
       <Head>
         <meta
           name="description"
-          content="وجهتك الأمثل لاكتساب مهارات جافاسكربت بسهولة وفعالية. رحلة تعليمية شيقة تمتد من الأساسيات إلى المستويات المتقدمة"
+          content="منصة تعليمية عربية متخصصة في تعلم لغة البرمجة جافاسكريبت بطريقة مبتكرة وتفاعلية."
         />
         <meta
           name="keywords"
-          content="Nakhlahjs, Nakhlah, تعلم جافاسكربت, جافاسكربت, تعليم جافاسكربت, كورس جافاسربت, كورس جافاسكربت مجاني, كورس جافاسكربت"
-        />
+          content="تعلم برمجة جافا سكريبت, دورة جافا سكريبت, مبتدئين جافا سكريبت, تطوير الويب بجافا سكريبت, أساسيات جافا سكريبت, مصادر تعلم جافا سكريبت, جافا سكريبت مجاني, موارد تعليم جافا سكريبت, مشروعات تطبيق جافا سكريبت, أفضل كورس جافا سكريبت, أدوات تطوير جافا سكريبت, تحسين أداء جافا سكريبت, جافا سكريبت ES6, تطبيقات ويب بجافا سكريبت, جافا سكريبت الحديثة, مبادئ البرمجة بجافا سكريبت, مستقبل جافا سكريبت, تطبيقات جافا سكريبت النقالة, تصميم واجهة المستخدم بجافا سكريبت, النصائح والحيل في جافا سكريبت, دورات متقدمة جافا سكريبت, استخدام جافا سكريبت في تطوير التطبيقات, مجتمع جافا سكريبت, تعلم جافاسكربت, جافاسكربت, تعليم جافاسكربت, كورس جافاسربت, كورس جافاسكربت مجاني, nakhlahjs, nakhlah, نخله, نخله جي اس, نخلة, نخلة جي اس, منصة نخلة, منصة نخله, جافاسكربت نخله" />
         <meta property="og:title" content="نخلة جي أس" />
         <meta
           property="og:description"
-          content="وجهتك الأمثل لاكتساب مهارات جافاسكربت بسهولة وفعالية. رحلة تعليمية شيقة تمتد من الأساسيات إلى المستويات المتقدمة"
+          content="منصة تعليمية عربية متخصصة في تعلم لغة البرمجة جافاسكريبت بطريقة مبتكرة وتفاعلية."
         />
       </Head>
-      <main className="h-[75vh] relative">
+      <main className="h-[90vh] relative">
         <section class="w-fulloverflow-hidden">
           <div class="container relative w-full px-8 pt-16 mx-auto lg:px-4 z-[999]">
             <div class="flex flex-col w-full mb-12 text-center">
-              <h1 class="mb-6 text-5xl font-bold tracking-tighter lg:text-6xl">
-                نخلة جي أس
+              <h1 class="mb-4 text-6xl font-bold tracking-tighter lg:text-6xl">
+                <span class="text-yellow-500 font-bold">JS</span>
+                <span class="ml-2 font-bold">نخلة</span>
               </h1>
               <p class="text-3xl mb-2">
                 اكتسب مهارات بسهولة وفعالية
@@ -58,7 +58,7 @@ export default function BlogIndexPage(
               <div class="rounded-lg mt-4">
                 <a
                   href="/courses"
-                  class="inline-flex items-center px-8 py-3 text-lg text-white transition-all duration-500 ease-in-out transform bg-black border-2 border-black rounded-lg md:mb-2 lg:mb-0 hover:border-white hover:opacity-80 focus:ring-2 ring-offset-current ring-offset-2"
+                  class="btn bg-base-content text-base-100 hover:bg-base-200 hover:text-base-content rounded-lg"
                 >
                   <IconArrowBigRightLines class="ml-2" />
                   ابدأ الآن

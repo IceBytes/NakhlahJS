@@ -57,6 +57,10 @@ pre {
   background-color: var(--fallback-b3,oklch(var(--b3)/1)) !important;
 }
 
+.markdown-body .highlight pre .comment {
+  color: #608B44 !important;
+}
+
 mark {
   background-color: oklch(var(--b3));
   color: inherit;
@@ -195,7 +199,11 @@ body::-moz-scrollbar-thumb {
   cursor: pointer;
 }
 
-/* Ladning page */
+/* Ladning page and course page background images */
+[data-theme="dim"] .bg-patternTop, [data-theme="dim"] .bg-waves {
+  filter: invert(91%) sepia(9%) saturate(664%) hue-rotate(161deg) brightness(90%) contrast(84%);
+}
+
 .bg-patternTop {
   background-image: url(../patternTop.svg);
 }

@@ -7,8 +7,8 @@ populateCache();
 // deno-lint-ignore require-await
 export default async function Layout(req: Request, ctx: FreshContext) {
   return (
-    // Don't delete data-theme="dim", used for defult theme and styles
-    <html dir="rtl" lang="ar" data-theme="dim">
+    // Don't delete data-theme="nord", used for defult theme and styles
+    <html dir="rtl" lang="ar" data-theme="nord">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +23,6 @@ export default async function Layout(req: Request, ctx: FreshContext) {
           href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-TDHJL7ZT23"
@@ -31,14 +30,12 @@ export default async function Layout(req: Request, ctx: FreshContext) {
         </script>
 
         <link rel="manifest" href="/manifest.json" />
-        <script src="/index.js"></script>
-        <script type="module" src="/sw-rg.js"></script>
+        <script src="/JavaScript/index.js"></script>
+        <script type="module" src="/JavaScript/sw-rg.js"></script>
       </head>
       <body>
-        <div class="h-screen">
-          <NavBar />
-          <ctx.Component />
-        </div>
+        <NavBar />
+        <ctx.Component />
       </body>
     </html>
   );
